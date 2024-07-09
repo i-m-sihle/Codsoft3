@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffe6f0; /* Calmer pink for the background */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+.calculator {
+    border: 6px solid #ff9bb5; /* Calmer pink for the border */
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    background-color: #ffecf2; /* Calmer pink for the calculator background */
+    width: 350px;
+    overflow: hidden;
+}
+
+.title {
+    background-color: #ffccd5; /* Calmer pink for the title background */
+    color: #fff;
+    font-size: 2.5em;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid #ff9bb5;
+    font-family: 'Dancing Script', cursive;
+}
+
+.display {
+    background-color: #ffccd5; /* Calmer pink for the display background */
+    color: #fff;
+    font-size: 2.5em;
+    text-align: right;
+    padding: 20px;
+    border-bottom: 2px solid #ff9bb5;
+    min-height: 80px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2px;
+}
+
+.btn {
+    background-color: #ff9bb5; /* Calmer pink for the buttons */
+    border: none;
+    padding: 30px;
+    font-size: 1.8em;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+    background-color: #ff809b; /* Slightly darker pink for button hover */
+    transform: scale(1.05);
+}
+
+.operation {
+    background-color: #d48ba4; /* Calmer pink for the operation buttons */
+}
+
+.operation:hover {
+    background-color: #c07390; /* Slightly darker pink for operation button hover */
+}
